@@ -5,6 +5,9 @@ import 'package:flutter_dsc/utility/api_json_grabber.dart';
 import 'package:flutter_dsc/components/widgets/app_drawer.dart';
 import 'package:lottie/lottie.dart';
 
+// Api string
+ final apiString = 'https://wayhike.com/dsc/demo_app_api.php';
+
 class HomeScreen extends StatefulWidget {
   // Home Screen ID for route
   static const screenId = 'HomeScreen';
@@ -23,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
         body: Center(
           child: Container(
             child: FutureBuilder(
-              future: ApiJsonGrabber(url: Assets.apiString).getData(),
+              future: ApiJsonGrabber(url: apiString).getData(),
               builder: (context, data) {
                 if (data.hasData) {
                   // grab the 'event_titles' data from the asyncdata

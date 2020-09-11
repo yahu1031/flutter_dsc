@@ -25,8 +25,6 @@ class Ints {
 }
 
 class Assets {
-  // Api string
-  static const apiString = 'https://wayhike.com/dsc/demo_app_api.php';
   // Website link
   static const dscSastraUrl = 'https://dscsastra.com/';
   // Image asset path name
