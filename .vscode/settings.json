@@ -1,0 +1,9 @@
+{
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter":"Dart-Code.dart-code"
+}
