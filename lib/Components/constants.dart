@@ -30,10 +30,10 @@ class Assets {
   // Website link
   static const dscSastraUrl = 'https://dscsastra.com/';
   // Image asset path name
-  static const imageAssetPath = 'images/dsclogo.png';
+  static const imageAssetPath = 'assets/images/dsclogo.png';
   // Lottie loading json
-  static const loading = 'lottie/loading.json';
-  static const searching = 'lottie/searching_data.json';
+  static const loading = 'assets/lottie/loading.json';
+  static const searching = 'assets/lottie/searching_data.json';
 }
 
 // Card textStyle, margin, and padding

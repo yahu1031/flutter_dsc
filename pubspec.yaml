@@ -28,11 +28,11 @@ flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   assets:
-    - images/
-    - lottie/
-    - fonts/
+    - assets/images/
+    - assets/lottie/
+    - assets/fonts/
   fonts:
     - family: Google Sans
       fonts:
-        - asset: fonts/ProductSans-Regular.ttf
+        - asset: assets/fonts/ProductSans-Regular.ttf
 
